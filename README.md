@@ -16,9 +16,11 @@ In this article I want to talk about how to create connections via modbus protoc
   >5.USB Power Adapter with microUSB cable</br>
   >6.Ethernet cable</br>
 
-Let's start
-First of all follow the link https://downloads.raspberrypi.org/raspbian/images/raspbian-2019-07-12/ and download 2019-07-10-raspbian-buster.zip
-Unzip this file, insert a microSD card into the adapter, connect it to your PC and install the image using Win32 Disk Imager or any other software for writing images to SD cards
-When the recording is finished, insert the SD card into the Raspberry PI, connect the power and screen to the raspberry
+# Raspbian installation #
+First of all follow the link https://downloads.raspberrypi.org/raspbian/images/raspbian-2019-07-12/ and download 2019-07-10-raspbian-buster.zip</br>
+Unzip this file, insert a microSD card into the adapter, connect it to your PC and install the image using Win32 Disk Imager or any other software for writing images to SD cards</br>
+When the recording is finished, Remove the sd card from the adapter.
 
+# First Start #
+Insert the SD card into the Raspberry Pi, connect the power and screen to the Raspberry
 
