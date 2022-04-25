@@ -18,10 +18,15 @@ In this article I want to talk about how to create connections via modbus protoc
   >7. Mouse and Keyboard</br>
 
 # Raspbian installation #
-First of all follow the link https://downloads.raspberrypi.org/raspbian/images/raspbian-2019-07-12/ and download 2019-07-10-raspbian-buster.zip</br>
+First of all follow the link https://downloads.raspberrypi.org/raspbian/images/raspbian-2019-07-12/ and download "2019-07-10-raspbian-buster.zip"</br>
 Unzip this file, insert a microSD card into the adapter, connect it to your PC and install the image using Win32 Disk Imager or any other software for writing images to SD cards</br>
 When the recording is finished, Remove the sd card from the adapter.
 
 # First Start #
-Insert the SD card into the Raspberry Pi, connect the power and screen to the Raspberry
+Insert the SD card into the Raspberry Pi, connect the power screen,mouse and keyboard to the Raspberry.</br>
+Open terminal and use command "sudo raspi-config"</br>
+Then go to point 5."Interfacing options"</br>
+![image](https://user-images.githubusercontent.com/104362972/165129564-79a90a32-7244-4bf9-ace4-e8638c251b54.png)
+Then go to point 3."VNC"
+![image](https://user-images.githubusercontent.com/104362972/165129894-26951f37-f357-489e-9f86-d7e49d5e0b6c.png)
 
