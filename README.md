@@ -26,16 +26,37 @@ When the recording is finished, Remove the sd card from the adapter.
 Insert the SD card into the Raspberry Pi, connect the power screen,mouse and keyboard to the Raspberry.</br>
 Open terminal and use command "sudo raspi-config"</br>
 Then go to point 5."Interfacing options"</br>
+
 ![image](https://user-images.githubusercontent.com/104362972/165131675-28c59b48-e3ec-45ed-823e-e4c96a2ad5c0.png)</br>
+
 Then go to point 3."VNC"</br>
+
 ![image](https://user-images.githubusercontent.com/104362972/165131752-32e8ee74-0196-4189-b35a-19f3dda2f4d6.png)</br>
+
 Confirm enabling the VNC server by pressing enter</br>
 Open terminal again and use command "sudo raspi-config", then go to point 1 to change password.</br>
 Next, in the console, enter the password for your Raspberry pi twice</br>
 After that, click on the internet icon, select your country and connect to your WI-FI by entering the password</br>
-![image](https://user-images.githubusercontent.com/104362972/165131465-489cd597-6a11-452d-a099-8876c3d336e1.png)</br>
+
+![image](https://user-images.githubusercontent.com/104362972/165133199-26c27aa3-284c-4eb5-9659-80d924a4e6f1.png)</br>
 
 Now it remains only to open the console, enter the "ifconfig" command and see the ip of the device</br>
 
 ![image](https://user-images.githubusercontent.com/104362972/165132322-654513b1-56f4-4efc-8f4e-16c4c3086c63.png)</br>
+
 # Connecting to Raspberry Pi from Computer via VNC #
+Download VNC Viewer and run it</br>
+Right click and select new connection</br>
+Enter the ip that you received in the "ifconfig", set the port to 5900</br>
+
+![image](https://user-images.githubusercontent.com/104362972/165132823-92246c96-1792-4fee-9e40-310e5173a641.png)</br>
+
+Username leave pi, as password enter your password</br>
+
+![image](https://user-images.githubusercontent.com/104362972/165133428-db239a02-0f18-42ec-b42e-d68807ec4341.png)</br>
+
+
+Once connected, you will be able to control your Raspberry from your PC</br>
+![image](https://user-images.githubusercontent.com/104362972/165134047-df01eb30-7cf6-44ff-b2e3-102881888648.png)
+
+# Installing the Network Manager #
