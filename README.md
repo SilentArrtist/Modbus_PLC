@@ -15,6 +15,7 @@ In this article I want to talk about how to create connections via modbus protoc
   >4.MicroSD memory card 16 GB</br>
   >5.USB Power Adapter with microUSB cable</br>
   >6.Ethernet cable</br>
+  >7. Mouse and Keyboard</br>
 
 # Raspbian installation #
 First of all follow the link https://downloads.raspberrypi.org/raspbian/images/raspbian-2019-07-12/ and download 2019-07-10-raspbian-buster.zip</br>
