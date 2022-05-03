@@ -90,6 +90,8 @@ After reboot click on the internet icon and connect to your WI-FI by entering th
 # Installing Django and deploy server to local network #
 To begin with, let's go to the root directory using the "cd /" command and look at the folders contained in it using the "ls" command. Remember these commands, we will use them often. </br>
 
+To work with the PLC, we will use the modbus protocol. To do this, install the python library to work with this protocol using the command "sudo pip3 install easymodbus"</br>
+
 ![image](https://user-images.githubusercontent.com/104362972/166484786-6c2fa88e-a93d-4648-8ff8-ef96f9334533.png)</br>
 
 Create two folders using the commands "sudo mkdir -m 1777 /share" and "sudo mkdir -m 1777 /shareclear"</br>
@@ -123,9 +125,12 @@ Save and exit by using CTRL+S and CTRL+X </br>
 
 Now reboot the system </br>
 Let's create a folder where the project will be stored. To do this, use the following commands: </br>
->cd /
->cd /share
->sudo mkdir "FolderName" 
->cd /"FolderName"
+>cd / </br>
+>cd /share </br>
+>sudo mkdir "FolderName" </br>
+>cd /"FolderName" </br>
 
 I named the folder "Django", I will use this name in the future</br>
+
+![image](https://user-images.githubusercontent.com/104362972/166490758-f77b9a1f-4cfb-4fac-867d-e3fc6ecdb488.png)</br>
+
