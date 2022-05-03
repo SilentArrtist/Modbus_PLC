@@ -77,3 +77,5 @@ Now open the dhcpcd.conf file with the command "sudo nano /etc/NetworkManager/Ne
 ###  Connect your mouse and keyboard, because the VNC connection will be disconnected after the reboot. </br> 
 Add this line:</br>
 >denyinterfaces wlan0
+
+To reboot, use "sudo reboot"
