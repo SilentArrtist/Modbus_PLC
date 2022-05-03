@@ -88,9 +88,10 @@ After reboot click on the internet icon and connect to your WI-FI by entering th
 ![image](https://user-images.githubusercontent.com/104362972/166480970-bf679aff-be64-4737-9e33-11c8442d2cbf.png)</br>
 
 # Installing Django and deploy server to local network #
-To begin with, let's go to the root directory using the "cd /" command and look at the folders contained in it using the "ls" command. Remember these commands, we will use them often. </br>
 
 To work with the PLC, we will use the modbus protocol. To do this, install the python library to work with this protocol using the command "sudo pip3 install easymodbus"</br>
+
+To begin with, let's go to the root directory using the "cd /" command and look at the folders contained in it using the "ls" command. Remember these commands, we will use them often. </br>
 
 ![image](https://user-images.githubusercontent.com/104362972/166484786-6c2fa88e-a93d-4648-8ff8-ef96f9334533.png)</br>
 
