@@ -57,6 +57,7 @@ Username leave pi, as password enter your password</br>
 
 
 Once connected, you will be able to control your Raspberry from your PC</br>
+
 ![image](https://user-images.githubusercontent.com/104362972/165134047-df01eb30-7cf6-44ff-b2e3-102881888648.png)
 
 # Installing the Network Manager #
@@ -83,15 +84,23 @@ Add this line:</br>
 To reboot, use "sudo reboot"
 
 After reboot click on the internet icon and connect to your WI-FI by entering the password</br>
+
 ![image](https://user-images.githubusercontent.com/104362972/166480970-bf679aff-be64-4737-9e33-11c8442d2cbf.png)</br>
+
 # Installing Django and deploy server to local network #
 To begin with, let's go to the root directory using the "cd /" command and look at the folders contained in it using the "ls" command. Remember these commands, we will use them often. </br>
+
 ![image](https://user-images.githubusercontent.com/104362972/166484786-6c2fa88e-a93d-4648-8ff8-ef96f9334533.png)</br>
+
 Create two folders using the commands "sudo mkdir -m 1777 /share" and "sudo mkdir -m 1777 /shareclear"</br>
+
 ![image](https://user-images.githubusercontent.com/104362972/166486325-35d0e3fd-5418-4a18-bf76-67b44f8c6936.png)</br>
+
 Now install samba using command "sudo apt-get install samba samba-common-bin"</br>
 Agree and select "yes" in the dialog box </br>
+
 ![image](https://user-images.githubusercontent.com/104362972/166486572-50128eb5-cd35-43cb-9250-5f0f65b5e9e5.png)</br>
+
 Open the samba .conf file with the command "sudo nano /etc/samba/smb.conf" </br>
 Paste the following at the end of the file: </br>
 
@@ -109,4 +118,7 @@ Paste the following at the end of the file: </br>
 >force group = pi</br>
 
 Save and exit by using CTRL+S and CTRL+X </br>
+
 ![image](https://user-images.githubusercontent.com/104362972/166488590-e68fbdc0-5a6e-4b64-8456-ddf2aab706c9.png) </br>
+
+
