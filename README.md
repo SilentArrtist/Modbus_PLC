@@ -121,4 +121,11 @@ Save and exit by using CTRL+S and CTRL+X </br>
 
 ![image](https://user-images.githubusercontent.com/104362972/166488590-e68fbdc0-5a6e-4b64-8456-ddf2aab706c9.png) </br>
 
+Now reboot the system </br>
+Let's create a folder where the project will be stored. To do this, use the following commands: </br>
+>cd /
+>cd /share
+>sudo mkdir "FolderName" 
+>cd /"FolderName"
 
+I named the folder "Django", I will use this name in the future</br>
