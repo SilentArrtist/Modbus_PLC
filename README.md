@@ -82,4 +82,4 @@ To reboot, use "sudo reboot"
 
 After reboot click on the internet icon and connect to your WI-FI by entering the password</br>
 ![image](https://user-images.githubusercontent.com/104362972/166480970-bf679aff-be64-4737-9e33-11c8442d2cbf.png)
-# Шnstalling Django and deploy server to local network #
+# Installing Django and deploy server to local network #
