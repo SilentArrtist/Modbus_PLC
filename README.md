@@ -87,5 +87,6 @@ To begin with, let's go to the root directory using the "cd /" command and look 
 ![image](https://user-images.githubusercontent.com/104362972/166484786-6c2fa88e-a93d-4648-8ff8-ef96f9334533.png)</br>
 Create two folders using the commands "sudo mkdir -m 1777 /share" and "sudo mkdir -m 1777 /shareclear"</br>
 ![image](https://user-images.githubusercontent.com/104362972/166486325-35d0e3fd-5418-4a18-bf76-67b44f8c6936.png)</br>
-Now install samba using command "sudo apt-get install samba samba-common-bin" </br>
+Now install samba using command "sudo apt-get install samba samba-common-bin"</br>
+Agree and select "yes" in the dialog box </br>
 ![image](https://user-images.githubusercontent.com/104362972/166486572-50128eb5-cd35-43cb-9250-5f0f65b5e9e5.png)</br>
