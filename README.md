@@ -72,6 +72,7 @@ Delete everything and add these lines.</br>
 ></br>
 >[ifupdown]</br>
 >managed=true</br>
+To save file use CTRL+S and CTRL+X to exit
 
 Now open the dhcpcd.conf file with the command "sudo nano /etc/NetworkManager/NetworkManager.conf"</br>
 ###  Connect your mouse and keyboard, because the VNC connection will be disconnected after the reboot. </br> 
@@ -90,3 +91,20 @@ Create two folders using the commands "sudo mkdir -m 1777 /share" and "sudo mkdi
 Now install samba using command "sudo apt-get install samba samba-common-bin"</br>
 Agree and select "yes" in the dialog box </br>
 ![image](https://user-images.githubusercontent.com/104362972/166486572-50128eb5-cd35-43cb-9250-5f0f65b5e9e5.png)</br>
+Open the samba .conf file with the command "sudo nano /etc/samba/smb.conf" </br>
+Paste the following at the end of the file: </br>
+
+>[share]
+>Comment = Pi shared folder
+>Path = /share
+>Browseable = yes
+>Writeable = Yes
+>only guest = no
+>create mask = 0777
+>directory mask = 0777
+>Public = yes
+>Guest ok = yes
+>force user = pi
+>force group = pi
+Save and exit by using CTRL+S and CTRL+X </br>
+![image](https://user-images.githubusercontent.com/104362972/166488590-e68fbdc0-5a6e-4b64-8456-ddf2aab706c9.png) </br>
