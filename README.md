@@ -94,17 +94,17 @@ Agree and select "yes" in the dialog box </br>
 Open the samba .conf file with the command "sudo nano /etc/samba/smb.conf" </br>
 Paste the following at the end of the file: </br>
 
->[share]
->Comment = Pi shared folder
->Path = /share
->Browseable = yes
->Writeable = Yes
->only guest = no
->create mask = 0777
->directory mask = 0777
->Public = yes
->Guest ok = yes
->force user = pi
->force group = pi
+>[share]</br>
+>Comment = Pi shared folder</br>
+>Path = /share</br>
+>Browseable = yes</br>
+>Writeable = Yes</br>
+>only guest = no</br>
+>create mask = 0777</br>
+>directory mask = 0777</br>
+>Public = yes</br>
+>Guest ok = yes</br>
+>force user = pi</br>
+>force group = pi</br>
 Save and exit by using CTRL+S and CTRL+X </br>
 ![image](https://user-images.githubusercontent.com/104362972/166488590-e68fbdc0-5a6e-4b64-8456-ddf2aab706c9.png) </br>
