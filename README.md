@@ -72,6 +72,7 @@ Delete everything and add these lines.</br>
 ></br>
 >[ifupdown]</br>
 >managed=true</br>
+
 To save file use CTRL+S and CTRL+X to exit
 
 Now open the dhcpcd.conf file with the command "sudo nano /etc/NetworkManager/NetworkManager.conf"</br>
