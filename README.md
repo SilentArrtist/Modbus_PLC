@@ -63,3 +63,12 @@ Once connected, you will be able to control your Raspberry from your PC</br>
 We will now make your Raspberry Pi create a local Wi-Fi network. Сonnect to internet and open terminal.</br>
 First, let's update obsolete packages in the system. Use the following command: "sudo apt update && sudo apt full-upgrade".</br>
 Now install Network Manager using command "sudo apt install network-manager network-manager-gnome"</br>
+Now open the NetworkManager.conf file with the command "sudo nano /etc/NetworkManager/NetworkManager.conf"</br>
+
+Delete everything and add these lines.</br>
+>[main]</br>
+>plugins=ifupdown,keyfile</br>
+>dhcp=internal</br>
+></br>
+>[ifupdown]</br>
+>managed=true</br>
