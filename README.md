@@ -72,3 +72,8 @@ Delete everything and add these lines.</br>
 ></br>
 >[ifupdown]</br>
 >managed=true</br>
+
+Now open the dhcpcd.conf file with the command "sudo nano /etc/NetworkManager/NetworkManager.conf"</br>
+!!!!Now connect your mouse and keyboard, because the VNC connection will be disconnected after the reboot. !!!!! </br>
+Add this line:</br>
+>denyinterfaces wlan0
