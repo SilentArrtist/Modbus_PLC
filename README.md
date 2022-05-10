@@ -93,6 +93,10 @@ After reboot click on the internet icon and connect to your WI-FI by entering th
 
 ![image](https://user-images.githubusercontent.com/104362972/166480970-bf679aff-be64-4737-9e33-11c8442d2cbf.png)</br>
 
+# PLC preparation #
+
+![image](https://user-images.githubusercontent.com/104362972/167636233-0784fe5d-9f4f-4763-ae67-588d4c353e61.png)
+
 # Installing Django and deploy server to local network #
 
 To begin with, let's go to the root directory using the "cd /" command and look at the folders contained in it using the "ls" command. Remember these commands, we will use them often. </br>
