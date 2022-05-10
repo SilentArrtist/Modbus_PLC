@@ -160,3 +160,9 @@ Now download the archive I have attached and move the "plc" folder to your proje
 
 After that, the projects folder will look like this:</br>
 ![image](https://user-images.githubusercontent.com/104362972/167623133-4161526d-4f21-48b4-bf77-dd46307e0cbf.png)</br>
+
+Next, install Django with the command:</br>
+>pip install Django</br>
+
+Then opem plc folder and install EasyModbus:
+>pip3 install EasyModbus
