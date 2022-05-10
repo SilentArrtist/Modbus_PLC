@@ -182,7 +182,7 @@ If you have added additional fields for registersthen you need to migrate the da
 Now let's move on to the "forms.py" file. If you haven't added anything to the "models.py" file, you can skip this step.</br>
 Adding widgets to the form by analogy.</br>
 
-![image](https://user-images.githubusercontent.com/104362972/167632008-7e237a18-18eb-4761-a8db-c9a3f418143b.png)</br>
+![image](https://user-images.githubusercontent.com/104362972/167634831-4c48effc-1f5d-47cc-845c-1a26ab8937db.png)</br>
 
 After that, go to the file "views.py"<br>
 In the ip variable, enter the ip address that was specified when setting up the PLC via Codesys</br>
