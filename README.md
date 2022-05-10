@@ -166,3 +166,33 @@ Next, install Django with the command:</br>
 
 Then opem plc folder and install EasyModbus:
 >pip3 install EasyModbus
+
+# Setting up a Django project #
+
+Now we have to configure the project for the corresponding PLC. Now we will be editing the Django project files, so it will be easier to use some editor. If you installed Raspbian with a desktop, then open the file manager with "sudo pcmanfm" and navigate to the project folder. My path looks like this: "/share/Django/plc". Open the main folder, and in it open the files "views.py" , "models.py" and "forms.py"  through the editor. I am using Geany editor. 
+
+</br>
+Let's start with the "models.py" file. There you will see 5 values for holding registers. If you have more than 5 holding registers when setting up PLC and Modbus, then add them in the same way. The result is the following file:</br>
+![image](https://user-images.githubusercontent.com/104362972/167631447-18bc8acb-94fb-4f85-a269-c8b0a6d37feb.png)</br>
+
+If you have added additional fields for registersthen you need to migrate the database. Use the following commands in the folder where the manage.py file is located:
+>python manage.py makemigrations</br>
+>python manage.py migrate</br>
+
+Now let's move on to the "forms.py" file. If you haven't added anything to the "models.py" file, you can skip this step.</br>
+Adding widgets to the form by analogy.</br>
+
+![image](https://user-images.githubusercontent.com/104362972/167632008-7e237a18-18eb-4761-a8db-c9a3f418143b.png)</br>
+
+After that, go to the file "views.py"<br>
+In the ip variable, enter the ip address that was specified when setting up the PLC via Codesys</br>
+If you added the number of holding registers to model.py, then change the value 5 to the number of your registers</br>
+
+![image](https://user-images.githubusercontent.com/104362972/167633366-f009c366-4d55-4da4-bd3b-eea1b14db231.png)</br>
+
+Now let's work a little on the UI. To do this, open the templates folder, and in it open the file "index.html"</br>
+If you added new registers, then copy and paste the next block by analogy with the rest, changing its number:</br>
+
+![image](https://user-images.githubusercontent.com/104362972/167634119-f36d7ebb-3cb5-4af8-a897-94bae920096c.png)</br>
+
+P.S. N in this case is the register number.
