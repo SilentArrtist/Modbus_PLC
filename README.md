@@ -147,7 +147,12 @@ Now you need to set up the virtual environment. To do this, open the project fol
 
 ![image](https://user-images.githubusercontent.com/104362972/167621437-bffbc529-cb3a-4b2f-b384-4f76ed3b5be1.png)
 
-Let's start the virtual environment with the following command:
+Let's start the virtual environment with the following command:</br>
 >source env2/bin/activate
 
 ![image](https://user-images.githubusercontent.com/104362972/167622073-45fe1022-2cad-439c-ad42-5b0268780429.png)</br>
+
+Now download the archive I have attached and move the "plc" folder to your projects folder. In order to open the file manager with administrator rights, you can use the next command:</br>
+>sudo pcmanfm
+
+
