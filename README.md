@@ -108,6 +108,7 @@ Agree and select "yes" in the dialog box </br>
 
 ![image](https://user-images.githubusercontent.com/104362972/166486572-50128eb5-cd35-43cb-9250-5f0f65b5e9e5.png)</br>
 
+
 Open the samba .conf file with the command "sudo nano /etc/samba/smb.conf" </br>
 Paste the following at the end of the file: </br>
 
@@ -146,3 +147,7 @@ Now you need to set up the virtual environment. To do this, open the project fol
 
 ![image](https://user-images.githubusercontent.com/104362972/167621437-bffbc529-cb3a-4b2f-b384-4f76ed3b5be1.png)
 
+Let's start the virtual environment with the following command:
+>source env2/bin/activate
+
+![image](https://user-images.githubusercontent.com/104362972/167622073-45fe1022-2cad-439c-ad42-5b0268780429.png)</br>
