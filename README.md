@@ -204,6 +204,8 @@ P.S. N in this case is the register number.
 
 Now we can start the server with the command "python manage.py runserver 0.0.0.0:8000"
 
+Using a device that is on the same subnet as the Raspberry Pi, open a browser and enter "ip:8000" in the search bar, where ip is the ip of the Raspberry pi.
+
 If you did everything correctly, you will see the next picture:
 
 ![image](https://user-images.githubusercontent.com/104362972/167635753-87872fe9-9a12-4f1a-9bf5-068b0956ed31.png)
