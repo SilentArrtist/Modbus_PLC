@@ -62,8 +62,8 @@ Once connected, you will be able to control your Raspberry from your PC</br>
 
 # Installing some libraries #
 Use next commands to instal EasyModbus and virtualenv.
->pip3 install EasyModbus
->sudo pip install virtualenv
+>pip3 install EasyModbus </br>
+>sudo pip install virtualenv</br>
 
 
 # Installing the Network Manager #
@@ -94,8 +94,6 @@ After reboot click on the internet icon and connect to your WI-FI by entering th
 ![image](https://user-images.githubusercontent.com/104362972/166480970-bf679aff-be64-4737-9e33-11c8442d2cbf.png)</br>
 
 # Installing Django and deploy server to local network #
-
-To work with the PLC, we will use the modbus protocol. To do this, install the python library to work with this protocol using the command "sudo pip3 install easymodbus"</br>
 
 To begin with, let's go to the root directory using the "cd /" command and look at the folders contained in it using the "ls" command. Remember these commands, we will use them often. </br>
 
