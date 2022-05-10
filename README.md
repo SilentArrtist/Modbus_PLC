@@ -152,7 +152,11 @@ Let's start the virtual environment with the following command:</br>
 
 ![image](https://user-images.githubusercontent.com/104362972/167622073-45fe1022-2cad-439c-ad42-5b0268780429.png)</br>
 
-Now download the archive I have attached and move the "plc" folder to your projects folder. In order to open the file manager with administrator rights, you can use the next command:</br>
+Now download the archive I have attached and move the "plc" folder to your projects folder. You can use any flash drive for this. In order to open the file manager with administrator rights, you can use the next command:</br>
 >sudo pcmanfm
 
+![image](https://user-images.githubusercontent.com/104362972/167622904-a0da1fb7-a8fd-4e3a-bee9-7146418faba6.png)
 
+
+After that, the projects folder will look like this:</br>
+![image](https://user-images.githubusercontent.com/104362972/167623133-4161526d-4f21-48b4-bf77-dd46307e0cbf.png)</br>
