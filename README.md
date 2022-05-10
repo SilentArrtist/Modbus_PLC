@@ -60,6 +60,12 @@ Once connected, you will be able to control your Raspberry from your PC</br>
 
 ![image](https://user-images.githubusercontent.com/104362972/165134047-df01eb30-7cf6-44ff-b2e3-102881888648.png)
 
+# Installing some libraries #
+Use next commands to instal EasyModbus and virtualenv.
+>pip3 install EasyModbus
+>sudo pip install virtualenv
+
+
 # Installing the Network Manager #
 We will now make your Raspberry Pi create a local Wi-Fi network. Сonnect to internet and open terminal.</br>
 First, let's update obsolete packages in the system. Use the following command: "sudo apt update && sudo apt full-upgrade".</br>
