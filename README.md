@@ -129,7 +129,7 @@ Save and exit by using CTRL+S and CTRL+X </br>
 ![image](https://user-images.githubusercontent.com/104362972/166488590-e68fbdc0-5a6e-4b64-8456-ddf2aab706c9.png) </br>
 
 Now reboot the system </br>
-Let's create a folder where the project will be stored. To do this, use the following commands: </br>
+Let's create a folder where the projects will be stored. To do this, use the following commands: </br>
 >cd / </br>
 >cd /share </br>
 >sudo mkdir "FolderName" </br>
@@ -138,4 +138,11 @@ Let's create a folder where the project will be stored. To do this, use the foll
 I named the folder "Django", I will use this name in the future</br>
 
 ![image](https://user-images.githubusercontent.com/104362972/166490758-f77b9a1f-4cfb-4fac-867d-e3fc6ecdb488.png)</br>
+
+
+Now you need to set up the virtual environment. To do this, open the project folder and enter the following command.
+
+>virtualenv env2 -p python3
+
+![image](https://user-images.githubusercontent.com/104362972/167621437-bffbc529-cb3a-4b2f-b384-4f76ed3b5be1.png)
 
