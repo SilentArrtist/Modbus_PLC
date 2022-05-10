@@ -130,7 +130,7 @@ Save and exit by using CTRL+S and CTRL+X </br>
 ![image](https://user-images.githubusercontent.com/104362972/166488590-e68fbdc0-5a6e-4b64-8456-ddf2aab706c9.png) </br>
 
 Now reboot the system </br>
-Let's create a folder where the projects will be stored. To do this, use the following commands: </br>
+Let's create a folder where the projects will be stored. To do this, use the next commands: </br>
 >cd / </br>
 >cd /share </br>
 >sudo mkdir "FolderName" </br>
@@ -141,13 +141,13 @@ I named the folder "Django", I will use this name in the future</br>
 ![image](https://user-images.githubusercontent.com/104362972/166490758-f77b9a1f-4cfb-4fac-867d-e3fc6ecdb488.png)</br>
 
 
-Now you need to set up the virtual environment. To do this, open the project folder and enter the following command.
+Now you need to set up the virtual environment. To do this, open the project folder and enter the next command.
 
 >virtualenv env2 -p python3
 
 ![image](https://user-images.githubusercontent.com/104362972/167621437-bffbc529-cb3a-4b2f-b384-4f76ed3b5be1.png)
 
-Let's start the virtual environment with the following command:</br>
+Let's start the virtual environment with the next command:</br>
 >source env2/bin/activate
 
 ![image](https://user-images.githubusercontent.com/104362972/167622073-45fe1022-2cad-439c-ad42-5b0268780429.png)</br>
@@ -172,10 +172,10 @@ Then opem plc folder and install EasyModbus:
 Now we have to configure the project for the corresponding PLC. Now we will be editing the Django project files, so it will be easier to use some editor. If you installed Raspbian with a desktop, then open the file manager with "sudo pcmanfm" and navigate to the project folder. My path looks like this: "/share/Django/plc". Open the main folder, and in it open the files "views.py" , "models.py" and "forms.py"  through the editor. I am using Geany editor. 
 
 </br>
-Let's start with the "models.py" file. There you will see 5 values for holding registers. If you have more than 5 holding registers when setting up PLC and Modbus, then add them in the same way. The result is the following file:</br>
+Let's start with the "models.py" file. There you will see 5 values for holding registers. If you have more than 5 holding registers when setting up PLC and Modbus, then add them in the same way. The result is the next file:</br>
 ![image](https://user-images.githubusercontent.com/104362972/167631447-18bc8acb-94fb-4f85-a269-c8b0a6d37feb.png)</br>
 
-If you have added additional fields for registersthen you need to migrate the database. Use the following commands in the folder where the manage.py file is located:
+If you have added additional fields for registersthen you need to migrate the database. Use the next commands in the folder where the manage.py file is located:
 >python manage.py makemigrations</br>
 >python manage.py migrate</br>
 
@@ -196,3 +196,10 @@ If you added new registers, then copy and paste the next block by analogy with t
 ![image](https://user-images.githubusercontent.com/104362972/167634119-f36d7ebb-3cb5-4af8-a897-94bae920096c.png)</br>
 
 P.S. N in this case is the register number.
+
+
+Now we can start the server with the command "python manage.py runserver 0.0.0.0:8000"
+
+If you did everything correctly, you will see the next picture:
+
+![image](https://user-images.githubusercontent.com/104362972/167635753-87872fe9-9a12-4f1a-9bf5-068b0956ed31.png)
