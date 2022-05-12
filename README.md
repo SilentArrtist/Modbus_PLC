@@ -94,6 +94,29 @@ After reboot click on the internet icon and connect to your WI-FI by entering th
 ![image](https://user-images.githubusercontent.com/104362972/166480970-bf679aff-be64-4737-9e33-11c8442d2cbf.png)</br>
 
 # PLC preparation #
+Для начала скачаем ПО для настройки нашего PLC. Поскольку я буду использовать плк от компании OWEN, я буду использовать codesys. Скачаем его с оффициального сайта https://owen.ru/product/codesys_v3
+
+![image](https://user-images.githubusercontent.com/104362972/168025530-3a6c86ff-2a39-4765-a04a-8a5915fdeda7.png)
+
+Скачиваем необходимую версиую, я выбрал v14.
+
+Установим и запустим его
+вы увидите следующую картинку 
+
+![image](https://user-images.githubusercontent.com/104362972/168026359-33f56c72-42f0-4fc3-b79f-4b52b7bf8699.png)
+
+Зайдем на сайт кодесис и загрузим таргет файлы для нашей модели плк
+
+![image](https://user-images.githubusercontent.com/104362972/168026871-a6e3d833-e428-486d-9692-a02666295c0e.png)
+
+![image](https://user-images.githubusercontent.com/104362972/168026925-6b9ead28-367c-43b8-a21f-9a39f0158c5d.png)
+
+скачиваем таргет файл под версию кодесис
+
+выбираем tools->packet manager
+
+![image](https://user-images.githubusercontent.com/104362972/168027233-6311e214-e9e4-4c47-88c1-773fe585a3bb.png)
+
 
 ![image](https://user-images.githubusercontent.com/104362972/167636233-0784fe5d-9f4f-4763-ae67-588d4c353e61.png)
 
