@@ -127,6 +127,22 @@ After reboot click on the internet icon and connect to your WI-FI by entering th
 
 По итогу видим следующую картинку:
 
+![image](https://user-images.githubusercontent.com/104362972/168029060-7b221e8d-5a7f-480d-b44c-bd1c1849e558.png)
+
+Теперь добавим протокол Modbus
+Следуйте за картинками
+
+![image](https://user-images.githubusercontent.com/104362972/168029258-6866e65b-d03e-4b10-97b2-bcb19e58bfb8.png)</br>
+![image](https://user-images.githubusercontent.com/104362972/168029475-50e845d1-edd0-40bc-9b50-b03a77ebbc7a.png)</br>
+
+Далее двойной клик на modbus slave, там открываем mapping и даем названия нескольким holding и input registers
+
+![image](https://user-images.githubusercontent.com/104362972/168029884-b79321f3-0001-4576-b64a-6e06dcc4e85f.png)
+
+Создадим переменные в PLC_PRG и присвоим им значения. Так же зададим условия включения первого койла, если hold1 > 50
+
+![image](https://user-images.githubusercontent.com/104362972/168030390-eb9263dd-1ea4-4cd7-93cb-c61900069a2d.png)
+
 
  
 # Installing Django and deploy server to local network #
