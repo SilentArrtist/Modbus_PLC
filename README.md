@@ -166,6 +166,17 @@ After reboot click on the internet icon and connect to your WI-FI by entering th
 
 ![image](https://user-images.githubusercontent.com/104362972/168032922-2bce828c-0cf4-47e0-b021-8afcc95b341b.png)
 
+Дальше запускаем малину и настраиваем network manager.
+
+Открываем настрйоки network manager, выбарем проводное подключения, и устанваливаем необходимую нам подсеть
+
+![image](https://user-images.githubusercontent.com/104362972/168034264-9a592c6c-98f7-428a-ae34-443e032b4ace.png)
+
+
+
+После сохранения подключимся к PLC через ethernet кабель, введем новый ip и проверим соединенеие
+
+
 
 
 
