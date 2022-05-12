@@ -105,7 +105,7 @@ After reboot click on the internet icon and connect to your WI-FI by entering th
 
 ![image](https://user-images.githubusercontent.com/104362972/168026359-33f56c72-42f0-4fc3-b79f-4b52b7bf8699.png)
 
-Зайдем на сайт кодесис и загрузим таргет файлы для нашей модели плк
+Зайдем на сайт кодесис и загрузим таргет файлы для нашей модели плк. Для этого найдем его через поиск и откроем вкладку ПО и т.д.
 
 ![image](https://user-images.githubusercontent.com/104362972/168026871-a6e3d833-e428-486d-9692-a02666295c0e.png)
 
@@ -113,13 +113,22 @@ After reboot click on the internet icon and connect to your WI-FI by entering th
 
 скачиваем таргет файл под версию кодесис
 
-выбираем tools->packet manager
+выбираем tools->package manager
 
 ![image](https://user-images.githubusercontent.com/104362972/168027233-6311e214-e9e4-4c47-88c1-773fe585a3bb.png)
 
+Нажимаем Install и выбираем скачанный файл 
 
-![image](https://user-images.githubusercontent.com/104362972/167636233-0784fe5d-9f4f-4763-ae67-588d4c353e61.png)
+![image](https://user-images.githubusercontent.com/104362972/168027643-ebfc9b56-1051-4723-a6fd-1c0f53357f37.png)
 
+Нажмем на new project и выберем нужную модель ПЛК, далее ok
+
+![image](https://user-images.githubusercontent.com/104362972/168027727-9b5e632d-de9f-44d3-b558-26b2b83e6a1e.png)
+
+По итогу видим следующую картинку:
+
+
+ 
 # Installing Django and deploy server to local network #
 
 To begin with, let's go to the root directory using the "cd /" command and look at the folders contained in it using the "ls" command. Remember these commands, we will use them often. </br>
