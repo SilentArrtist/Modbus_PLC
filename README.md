@@ -143,8 +143,32 @@ After reboot click on the internet icon and connect to your WI-FI by entering th
 
 ![image](https://user-images.githubusercontent.com/104362972/168030390-eb9263dd-1ea4-4cd7-93cb-c61900069a2d.png)
 
+Подключим ноутбук к PLC через micro usb, откроем браузер и введем ip 172.16.0.1
+Посмотреть ip для своего плк вы можете скачав документ быстрый старт там же где и скачивали таргет файл.
 
- 
+логин по умолчанию root, пароль owen 
+
+видим следующую картинку
+
+![image](https://user-images.githubusercontent.com/104362972/168032292-35e0e34b-a4b2-4d99-9374-a95684a509ef.png)
+
+переходим в сеть интерфейсы
+
+Т.к мы будем подключать raspberry к plc через ethernet, то необходимо добавить ip для lan подключения
+
+![image](https://user-images.githubusercontent.com/104362972/168032518-f0b6ff0f-d196-4d10-b2d2-bf475e0a6343.png)
+
+Вводим новый ip и добавляем его
+
+![image](https://user-images.githubusercontent.com/104362972/168033057-e3d7836c-754a-45b8-9c60-2e38e445b747.png)
+
+Опускаемся ниже и применяем изменения
+
+![image](https://user-images.githubusercontent.com/104362972/168032922-2bce828c-0cf4-47e0-b021-8afcc95b341b.png)
+
+
+
+
 # Installing Django and deploy server to local network #
 
 To begin with, let's go to the root directory using the "cd /" command and look at the folders contained in it using the "ls" command. Remember these commands, we will use them often. </br>
