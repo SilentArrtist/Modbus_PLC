@@ -62,7 +62,6 @@ Once connected, you will be able to control your Raspberry from your PC</br>
 
 # Installing virtual enviroment #
 Use next command virtualenv:</br>
->pip3 install EasyModbus </br>
 >sudo pip install virtualenv</br>
 
 
